@@ -1,0 +1,11 @@
+E:\For GitHub\Console Games\Cars\Cars\bin\Debug\netcoreapp2.1\Cars.deps.json
+E:\For GitHub\Console Games\Cars\Cars\bin\Debug\netcoreapp2.1\Cars.runtimeconfig.json
+E:\For GitHub\Console Games\Cars\Cars\bin\Debug\netcoreapp2.1\Cars.runtimeconfig.dev.json
+E:\For GitHub\Console Games\Cars\Cars\bin\Debug\netcoreapp2.1\Cars.dll
+E:\For GitHub\Console Games\Cars\Cars\bin\Debug\netcoreapp2.1\Cars.pdb
+E:\For GitHub\Console Games\Cars\Cars\obj\Debug\netcoreapp2.1\Cars.csprojAssemblyReference.cache
+E:\For GitHub\Console Games\Cars\Cars\obj\Debug\netcoreapp2.1\Cars.csproj.CoreCompileInputs.cache
+E:\For GitHub\Console Games\Cars\Cars\obj\Debug\netcoreapp2.1\Cars.AssemblyInfoInputs.cache
+E:\For GitHub\Console Games\Cars\Cars\obj\Debug\netcoreapp2.1\Cars.AssemblyInfo.cs
+E:\For GitHub\Console Games\Cars\Cars\obj\Debug\netcoreapp2.1\Cars.dll
+E:\For GitHub\Console Games\Cars\Cars\obj\Debug\netcoreapp2.1\Cars.pdb
