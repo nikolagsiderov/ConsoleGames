@@ -40,7 +40,7 @@ namespace PingPong
                 MoveBall();
 
                 Console.Clear();
-                
+
                 CreateFirstPlayerPad();
                 CreateSecondPlayerPad();
                 CreateBall();
