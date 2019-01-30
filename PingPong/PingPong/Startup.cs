@@ -43,6 +43,7 @@ namespace PingPong
 
         static void Run()
         {
+
             while (true)
             {
                 if (Console.KeyAvailable)
@@ -75,6 +76,7 @@ namespace PingPong
                     break;
                 }
             }
+
         }
 
         static void GetResult()
