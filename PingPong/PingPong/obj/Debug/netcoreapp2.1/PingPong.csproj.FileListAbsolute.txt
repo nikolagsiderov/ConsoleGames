@@ -1,0 +1,11 @@
+E:\For GitHub\ConsoleGames\PingPong\PingPong\bin\Debug\netcoreapp2.1\PingPong.deps.json
+E:\For GitHub\ConsoleGames\PingPong\PingPong\bin\Debug\netcoreapp2.1\PingPong.runtimeconfig.json
+E:\For GitHub\ConsoleGames\PingPong\PingPong\bin\Debug\netcoreapp2.1\PingPong.runtimeconfig.dev.json
+E:\For GitHub\ConsoleGames\PingPong\PingPong\bin\Debug\netcoreapp2.1\PingPong.dll
+E:\For GitHub\ConsoleGames\PingPong\PingPong\bin\Debug\netcoreapp2.1\PingPong.pdb
+E:\For GitHub\ConsoleGames\PingPong\PingPong\obj\Debug\netcoreapp2.1\PingPong.csprojAssemblyReference.cache
+E:\For GitHub\ConsoleGames\PingPong\PingPong\obj\Debug\netcoreapp2.1\PingPong.csproj.CoreCompileInputs.cache
+E:\For GitHub\ConsoleGames\PingPong\PingPong\obj\Debug\netcoreapp2.1\PingPong.AssemblyInfoInputs.cache
+E:\For GitHub\ConsoleGames\PingPong\PingPong\obj\Debug\netcoreapp2.1\PingPong.AssemblyInfo.cs
+E:\For GitHub\ConsoleGames\PingPong\PingPong\obj\Debug\netcoreapp2.1\PingPong.dll
+E:\For GitHub\ConsoleGames\PingPong\PingPong\obj\Debug\netcoreapp2.1\PingPong.pdb
