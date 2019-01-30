@@ -1,14 +1,16 @@
 ﻿using System;
 using System.Threading;
 
-namespace PingPong // still cant fix a bug with the moving of the ball
+namespace PingPong
 {
     class Startup
     {
         static int padsize = 6;
         static int firstPlayerPositionY = Console.WindowHeight / 2 - padsize / 2;
-        static int secondPlayerPositionY = Console.WindowHeight / 2 - padsize / 2;
         static int initialXPositionOfSecondPlayer = Console.WindowWidth - 1;
+        static int initialYPositionOfSecondPlayer = Console.WindowHeight / 2 - padsize / 2;
+        static int secondPlayerPositionX = Console.WindowWidth - 1;
+        static int secondPlayerPositionY = Console.WindowHeight / 2 - padsize / 2;
         static char padSymbol = '|';
         static int ballPositionX = Console.WindowWidth / 2;
         static int ballPositionY = Console.WindowHeight / 2;
@@ -22,6 +24,19 @@ namespace PingPong // still cant fix a bug with the moving of the ball
         {
             Console.BufferHeight = Console.WindowHeight = 40;
             Console.BufferWidth = Console.WindowWidth = 100;
+
+            string firstSentence = "PLAYER WHO REACHES TO 10 POINTS FIRST WINS!";
+            string secondSentence = "Press any key to continue...";
+
+            Console.SetCursorPosition(Console.WindowWidth / 2 - firstSentence.Length / 2, Console.WindowHeight / 2);
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.Write(firstSentence);
+
+            Console.SetCursorPosition(Console.WindowWidth / 2 - secondSentence.Length / 2, Console.WindowHeight / 2 + 2);
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.Write(secondSentence);
+
+            ConsoleKeyInfo key = Console.ReadKey();
 
             Run();
         }
@@ -143,7 +158,7 @@ namespace PingPong // still cant fix a bug with the moving of the ball
             {
                 if (ballIsMovingRight)
                 {
-                    if (ballPositionY == Console.WindowHeight - 2)
+                    if (ballPositionY == Console.WindowHeight - 1)
                     {
                         ballIsMovingUp = true;
                     }
@@ -167,7 +182,7 @@ namespace PingPong // still cant fix a bug with the moving of the ball
                 }
                 else
                 {
-                    if (ballPositionY == Console.WindowHeight - 2)
+                    if (ballPositionY == Console.WindowHeight - 1)
                     {
                         ballIsMovingUp = true;
                     }
@@ -196,6 +211,9 @@ namespace PingPong // still cant fix a bug with the moving of the ball
         {
             int ballPositionX = Console.WindowWidth / 2;
             int ballPositionY = Console.WindowHeight / 2;
+
+            secondPlayerPositionX = initialXPositionOfSecondPlayer;
+            secondPlayerPositionY = initialYPositionOfSecondPlayer;
         }
 
         static void CreateBall()
@@ -220,7 +238,7 @@ namespace PingPong // still cant fix a bug with the moving of the ball
                 }
                 else
                 {
-                    if (secondPlayerPositionY < Console.WindowHeight - 1)
+                    if (secondPlayerPositionY + padsize < Console.WindowHeight - 1)
                     {
                         secondPlayerPositionY++;
                     }
@@ -256,10 +274,10 @@ namespace PingPong // still cant fix a bug with the moving of the ball
         {
             for (int i = secondPlayerPositionY; i < secondPlayerPositionY + padsize; i++)
             {
-                Console.SetCursorPosition(initialXPositionOfSecondPlayer, i);
+                Console.SetCursorPosition(secondPlayerPositionX, i);
                 Console.Write(padSymbol);
 
-                Console.SetCursorPosition(initialXPositionOfSecondPlayer - 1, i);
+                Console.SetCursorPosition(secondPlayerPositionX - 1, i);
                 Console.Write(padSymbol);
             }
         }
