@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace PingPong
+namespace PingPong // still cant fix a bug with the moving of the ball
 {
     class Startup
     {
