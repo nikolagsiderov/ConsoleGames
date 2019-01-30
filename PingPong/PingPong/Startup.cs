@@ -46,7 +46,7 @@ namespace PingPong
                 CreateBall();
                 GetResult();
 
-                Thread.Sleep(10);
+                Thread.Sleep(100);
 
                 if (firstPlayerResult == 10)
                 {
