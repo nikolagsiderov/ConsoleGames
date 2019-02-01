@@ -1,0 +1,11 @@
+E:\For GitHub\ConsoleGames\Snake\SnakeGame\bin\Debug\netcoreapp2.1\SnakeGame.deps.json
+E:\For GitHub\ConsoleGames\Snake\SnakeGame\bin\Debug\netcoreapp2.1\SnakeGame.runtimeconfig.json
+E:\For GitHub\ConsoleGames\Snake\SnakeGame\bin\Debug\netcoreapp2.1\SnakeGame.runtimeconfig.dev.json
+E:\For GitHub\ConsoleGames\Snake\SnakeGame\bin\Debug\netcoreapp2.1\SnakeGame.dll
+E:\For GitHub\ConsoleGames\Snake\SnakeGame\bin\Debug\netcoreapp2.1\SnakeGame.pdb
+E:\For GitHub\ConsoleGames\Snake\SnakeGame\obj\Debug\netcoreapp2.1\SnakeGame.csprojAssemblyReference.cache
+E:\For GitHub\ConsoleGames\Snake\SnakeGame\obj\Debug\netcoreapp2.1\SnakeGame.csproj.CoreCompileInputs.cache
+E:\For GitHub\ConsoleGames\Snake\SnakeGame\obj\Debug\netcoreapp2.1\SnakeGame.AssemblyInfoInputs.cache
+E:\For GitHub\ConsoleGames\Snake\SnakeGame\obj\Debug\netcoreapp2.1\SnakeGame.AssemblyInfo.cs
+E:\For GitHub\ConsoleGames\Snake\SnakeGame\obj\Debug\netcoreapp2.1\SnakeGame.dll
+E:\For GitHub\ConsoleGames\Snake\SnakeGame\obj\Debug\netcoreapp2.1\SnakeGame.pdb
