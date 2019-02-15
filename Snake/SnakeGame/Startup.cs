@@ -3,13 +3,9 @@ using System.Threading;
 
 namespace SnakeGame
 {
-    // spawn fruits
-    // move snake
-    // grow snake
-    // create snake
-
     class Startup
     {
+        static bool initialSnakeCreation = true;
         static bool eaten = false;
 
         static void Main(string[] args)
@@ -67,14 +63,21 @@ namespace SnakeGame
         {
             Snake snake = new Snake();
             snake.Symbol = 'O';
-            snake.Body.Add(snake.Symbol);
-            snake.BodyCoordinatesX.Add(1);
-            snake.BodyCoordinatesY.Add(1);
 
-            for (int i = 0; i < snake.Body.Count; i++)
+            if (initialSnakeCreation)
             {
-                Console.SetCursorPosition(snake.BodyCoordinatesX[i], snake.BodyCoordinatesY[i]);
-                Console.Write(snake.Symbol);
+                for (int i = 0; i < 3; i++)
+                {
+                    snake.Body.Enqueue(snake.Symbol);
+                    snake.BodyCoordinatesX.Enqueue(i + 1);
+                    snake.BodyCoordinatesY.Enqueue(1);
+                }
+
+                initialSnakeCreation = false;
+            }
+            else
+            {
+
             }
         }
     }
