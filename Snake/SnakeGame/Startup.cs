@@ -71,13 +71,19 @@ namespace SnakeGame
                     snake.Body.Enqueue(snake.Symbol);
                     snake.BodyCoordinatesX.Enqueue(i + 1);
                     snake.BodyCoordinatesY.Enqueue(1);
-                }
 
+                    Console.SetCursorPosition(i + 1, 1);
+                    Console.Write(snake.Symbol);
+                }
+                
                 initialSnakeCreation = false;
             }
             else
             {
-
+                for (int i = 0; i < snake.Count; i++)
+                {
+                    snake
+                }
             }
         }
     }

@@ -6,18 +6,18 @@ namespace SnakeGame
 {
     class Snake
     {
-        public Queue<char> Body { get; set; }
+        public Snake()
+        {
+            this.BodyCoordinatesX = new Queue<int>();
+            this.BodyCoordinatesY = new Queue<int>();
+        }
 
         public Queue<int> BodyCoordinatesX { get; set; }
 
         public Queue<int> BodyCoordinatesY { get; set; }
 
-        public char Symbol { get; set; }
+        public int Count => BodyCoordinatesX.Count;
 
-        public Snake()
-        {
-            this.Body = new Queue<char>();
-            this.BodyCoordinates = new Queue<int>();
-        }
+        public char Symbol { get; set; }
     }
 }
