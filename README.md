@@ -1,5 +1,5 @@
 # ConsoleGames
-Console games I have created up.
+Console games I have created.
 
 # What I Learned
 
